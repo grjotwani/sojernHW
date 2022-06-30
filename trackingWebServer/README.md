@@ -1,9 +1,9 @@
 # trackingWebServer
 
-* Install via :
+* Install :
 go get -v github.com/grjotwani/sojernHW/trackingWebServer
 
-* Run trackingWebServer as :
+* Run trackingWebServer :
 trackingWebServer/cmd$ go run main.go
 
 * Handles requests @ http://localhost:8090
