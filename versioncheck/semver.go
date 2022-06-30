@@ -20,9 +20,9 @@ func (s SemVer) String() string {
 // 0 if receiver and s2 are the same version.
 // 1 if receiver is higher
 // -1 if receiver is lower
-func (s SemVer) Compare(s2 SemVer) int {
+func (s SemVer) Compare(s2 string) int {
 	versions1 := strings.Split(s.String(), ".")
-	versions2 := strings.Split(s2.String(), ".")
+	versions2 := strings.Split(s2, ".")
 	len1 := len(versions1)
 	len2 := len(versions2)
 	var minlengthForComparision, max, i int
