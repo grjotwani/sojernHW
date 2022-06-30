@@ -1,10 +1,10 @@
-# versioncheck
+# versioncheck Utility
 
-Run versioncheck as :
-versioncheck/cmd$ go run main.go
+* Install via :
+go get -v github.com/grjotwani/sojernHW/versioncheck
 
-It handles requests coming to : http://localhost:8090
-It serves paths /img and /ping.
+* Run versioncheck via CLI:
+grjotwani/sojernHW/versioncheck/cmd$  go run *.go -version1 "1.0" -version2 "2.0"
 
-Info and Err details are sent to stdout and stderr.
-
+* Run tests :
+grjotwani/sojernHW/versioncheck$  go test -v
