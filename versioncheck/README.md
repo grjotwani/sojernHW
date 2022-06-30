@@ -1,6 +1,6 @@
 # versioncheck Utility
 
-* Install via :
+* Install :
 go get -v github.com/grjotwani/sojernHW/versioncheck
 
 * Run versioncheck via CLI:
