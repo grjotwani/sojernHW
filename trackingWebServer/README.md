@@ -1,4 +1,6 @@
 # trackingWebServer
+Install via :
+go get -v github.com/grjotwani/sojernHW/trackingWebServer
 
 Run trackingWebServer as :
 trackingWebServer/cmd$ go run main.go
